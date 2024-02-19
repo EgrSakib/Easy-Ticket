@@ -1,19 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/bus-icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3976eee170.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Easy Ticket</title>
+    <style>
+        main {
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
 </head>
+
 <body>
     <header>
+        <!-- navbar section -->
+        <nav class="mx-4 lg:mx-32 mt-5">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-900 text-white rounded-box">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Destination</li>
+                            <li>Search</li>
+                        </ul>
+                    </div>
+                    <a class=" text-xl lg:text-4xl font-extrabold">Easy-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="mx-2"><a href="">Home</a></li>
+                        <li class="mx-2"><a href="">About</a></li>
+                        <li class="mx-2"><a href="">Destination</a></li>
+                        <li class="mx-2"><a href="">Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <button
+                        class="bg-[#1DD1001A] border rounded-xl gap-2  border-[#1DD100] text-[#1DD100] text-2xl font-bold flex px-4 py-2 justify-center items-center">Bus
+                        <img src="images/bus-icon.png" alt=""></button>
+                </div>
+            </div>
+        </nav>
 
+        <!-- hero section -->
+        <section class="mx-4 lg:mx-32 my-10">
+            <div class="hero rounded-2xl px-5 lx:px-20 py-10 lg:py-40 flex flex-col gap-10 relative"
+                style="background-image: url(images/banner.png);">
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="text-white">
+                        <h1 class="mb-5 text-3xl lg:text-7xl font-extrabold">End-to-End Travel with </h1>
+                        <h1 class="text-[#1DD100] mb-5 text text-3xl lg:text-7xl font-extrabold">P Paribahan</h1>
+                        <p class="mb-10 text-lg">Connecting communities with seamless journeys, our bus company is
+                            dedicated to reliable transportation, <br> ensuring passengers reach their destinations
+                            comfortably and on time.</p>
+                        <button class="bg-[#1DD100] p-5 rounded-xl text-black text-xl font-bold mb-18"><a
+                                href="#buyTicket">Buy
+                                ticket</a></button>
+                    </div>
+                </div>
+                <div class="lg:absolute lg:-bottom-10 flex flex-col lg:flex-row gap-10">
+                    <div
+                        class="bg-white text-black border-b-4 border-[#1DD100] flex justify-center items-center gap-5 py-3 px-10 rounded-xl">
+                        <img src="images/people.png" alt="">
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-3xl lg:text-5xl font-extrabold">500k+</h1>
+                            <h1 class="">Registered users</h1>
+                        </div>
+
+                    </div>
+                    <div
+                        class="bg-white text-black border-b-4 border-[#1DD100] flex justify-center items-center gap-5 py-3 px-10 rounded-xl">
+                        <img src="images/ticket-cupon.png" alt="">
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-3xl lg:text-5xl font-extrabold">500k+</h1>
+                            <h1 class="">Registered users</h1>
+                        </div>
+
+                    </div>
+                    <div
+                        class="bg-white text-black border-b-4 border-[#1DD100] flex justify-center items-center gap-5 py-3 px-10 rounded-xl">
+                        <img src="images/stoppage.png" alt="">
+                        <div class="flex flex-col gap-4">
+                            <h1 class="text-3xl lg:text-5xl font-extrabold">500k+</h1>
+                            <h1 class="">Registered users</h1>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
-    <body>
-        
-    </body>
+    <main>
+
+    </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
